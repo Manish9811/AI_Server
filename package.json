@@ -6,9 +6,7 @@
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
-    "start": "next start",
-    "postinstall": "npm run build"
-  },
+    "start": "next start"  },
   "author": "",
   "license": "ISC",
   "dependencies": {
