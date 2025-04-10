@@ -2,18 +2,24 @@
   "name": "ai-backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "node server.js",
-    "build": "next build",
-    "start": "next start"  },
+  "main": "server.js",
   "author": "",
   "license": "ISC",
+  "scripts": {
+    "start": "node server.js",
+    "heroku-postbuild": "npm install"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^5.1.0",
     "next": "^15.3.0",
     "nodemon": "^3.1.9",
     "openai": "^4.93.0"
+  },
+  "devDependencies": {
+    "@vercel/node": "2.0.0"
+  },
+  "engines": {
+    "node": "20.x"
   }
 }
