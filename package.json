@@ -6,7 +6,7 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "start": "node app.js",
+    "start": "node server.js",
     "heroku-postbuild": "npm install"
   },
   "dependencies": {
