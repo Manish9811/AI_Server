@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js",
-    "build":"next build"
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "node server.js",
+    "postinstall": "npm run build"
   },
   "author": "",
   "license": "ISC",
